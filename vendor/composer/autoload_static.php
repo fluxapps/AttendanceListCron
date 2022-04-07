@@ -7,7 +7,7 @@ namespace Composer\Autoload;
 class ComposerStaticInitcdc11513bc801d1bbd1f341f61f7e556
 {
     public static $files = array (
-        '93e7b4c74504f8a83f36eaf9e6789f58' => __DIR__ . '/../..' . '/../../../Repository/RepositoryObject/AttendanceList/vendor/autoload.php',
+        '5574987058b0e9cf6dd5c6e413c5c7ce' => __DIR__ . '/../..' . '/../../../Repository/RepositoryObject/AttendanceList/vendor/autoload.php',
     );
 
     public static $prefixLengthsPsr4 = array (
@@ -30,13 +30,9 @@ class ComposerStaticInitcdc11513bc801d1bbd1f341f61f7e556
     );
 
     public static $classMap = array (
+        'Composer\\InstalledVersions' => __DIR__ . '/..' . '/composer/InstalledVersions.php',
         'ilAttendanceListCronPlugin' => __DIR__ . '/../..' . '/classes/class.ilAttendanceListCronPlugin.php',
-        'srag\\LibrariesNamespaceChanger\\GeneratePluginPhpAndXml' => __DIR__ . '/..' . '/srag/librariesnamespacechanger/src/GeneratePluginPhpAndXml.php',
         'srag\\LibrariesNamespaceChanger\\LibrariesNamespaceChanger' => __DIR__ . '/..' . '/srag/librariesnamespacechanger/src/LibrariesNamespaceChanger.php',
-        'srag\\LibrariesNamespaceChanger\\PHP72Backport' => __DIR__ . '/..' . '/srag/librariesnamespacechanger/src/PHP72Backport.php',
-        'srag\\LibrariesNamespaceChanger\\PHP7Backport' => __DIR__ . '/..' . '/srag/librariesnamespacechanger/src/PHP7Backport.php',
-        'srag\\LibrariesNamespaceChanger\\RemovePHP72Backport' => __DIR__ . '/..' . '/srag/librariesnamespacechanger/src/RemovePHP72Backport.php',
-        'srag\\LibrariesNamespaceChanger\\UpdatePluginReadme' => __DIR__ . '/..' . '/srag/librariesnamespacechanger/src/UpdatePluginReadme.php',
     );
 
     public static function getInitializer(ClassLoader $loader)

@@ -1,31 +1,33 @@
 # AttendanceListCron
 
-This is an OpenSource project by studer + raimann ag, CH-Burgdorf (https://studer-raimann.ch)
+This is an OpenSource project by fluxlabs ag (https://fluxalbs.ch)
 
 ## Installation
-First install and enable [AttendanceList](https://github.com/studer-raimann/AttendanceList).
+First install and enable [AttendanceList](https://github.com/fluxapps/AttendanceList).
 
 Start at your ILIAS root directory
 ```bash
 mkdir -p Customizing/global/plugins/Services/Cron/CronHook
 cd Customizing/global/plugins/Services/Cron/CronHook
-git clone https://github.com/studer-raimann/AttendanceListCron.git AttendanceListCron
+git clone https://github.com/fluxapps/AttendanceListCron.git AttendanceListCron
 ```
 Update and activate the plugin in the ILIAS Plugin Administration
 
 ### Requirements
-* ILIAS 5.4 or ILIAS 6
-* PHP >=7.0
+* ILIAS 6 or ILIAS 7
+* PHP >=7.4
 
-### Adjustment suggestions
-* Adjustment suggestions by pull requests
-* Adjustment suggestions which are not yet worked out in detail by Jira tasks under https://jira.studer-raimann.ch/projects/PLATT
-* Bug reports under https://jira.studer-raimann.ch/projects/PLATT
-* For external users you can report it at https://plugins.studer-raimann.ch/goto.php?target=uihk_srsu_PLATT
+## License
 
-### ILIAS Plugin SLA
-Wir lieben und leben die Philosophie von Open Source Software! Die meisten unserer Entwicklungen, welche wir im Kundenauftrag oder in Eigenleistung entwickeln, stellen wir öffentlich allen Interessierten kostenlos unter https://github.com/studer-raimann zur Verfügung.
+This project is licensed under the GPL v3 License
 
-Setzen Sie eines unserer Plugins professionell ein? Sichern Sie sich mittels SLA die termingerechte Verfügbarkeit dieses Plugins auch für die kommenden ILIAS Versionen. Informieren Sie sich hierzu unter https://studer-raimann.ch/produkte/ilias-plugins/plugin-sla.
+## Contributing :purple_heart:
+Please ...
+1. ... register an account at https://git.fluxlabs.ch
+2. ... create pull requests :fire:
 
-Bitte beachten Sie, dass wir nur Institutionen, welche ein SLA abschliessen Unterstützung und Release-Pflege garantieren.
+## Adjustment suggestions / bug reporting :feet:
+Please ...
+1. ... register an account at https://git.fluxlabs.ch
+2. ... ask us for a Service Level Agreement: support@fluxlabs.ch :kissing_heart:
+3. ... Read and create issues

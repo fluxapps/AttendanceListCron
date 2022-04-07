@@ -1,21 +1,22 @@
 {
-  "name": "srag/plugins/attendancelistcron",
-  "description": "",
+  "name": "flux/attendancelistcron",
+  "version": "1.1.0",
+  "description": "ILIAS Plugin AttendanceListCron",
   "type": "project",
   "license": "GPL-3.0+",
   "authors": [
     {
-      "name": "Theodor Truffer",
-      "email": "tt@studer-raimann.ch",
-      "homepage": "https://studer-raimann.ch",
-      "role": "Project Manager, Software Engineer"
+      "name": "fluxlabs ag",
+      "email": "support@fluxlabs.ch",
+      "homepage": "https://fluxlabs.ch",
+      "role": "Maintainer, Developer"
     }
   ],
   "support": {
-    "issues": "https://plugins.studer-raimann.ch/goto.php?target=uihk_srsu_PLATT"
+    "issues": "https://git.fluxlabs.ch"
   },
   "require": {
-    "php": ">=7.0",
+    "php": ">=7.4",
     "srag/librariesnamespacechanger": ">=0.1.0"
   },
   "autoload": {
@@ -36,8 +37,7 @@
   },
   "scripts": {
     "pre-autoload-dump": [
-      "srag\\LibrariesNamespaceChanger\\LibrariesNamespaceChanger::rewriteLibrariesNamespaces",
-      "srag\\LibrariesNamespaceChanger\\PHP72Backport::PHP72Backport"
+      "srag\\LibrariesNamespaceChanger\\LibrariesNamespaceChanger::rewriteLibrariesNamespaces"
     ]
   }
 }
