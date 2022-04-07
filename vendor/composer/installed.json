@@ -1,47 +1,60 @@
-[
-    {
-        "name": "srag/librariesnamespacechanger",
-        "version": "v0.10.2",
-        "version_normalized": "0.10.2.0",
-        "source": {
-            "type": "git",
-            "url": "https://github.com/studer-raimann/LibrariesNamespaceChanger.git",
-            "reference": "8356263f5cb8d73ec05afa88712794fb0781711d"
-        },
-        "dist": {
-            "type": "zip",
-            "url": "https://api.github.com/repos/studer-raimann/LibrariesNamespaceChanger/zipball/8356263f5cb8d73ec05afa88712794fb0781711d",
-            "reference": "8356263f5cb8d73ec05afa88712794fb0781711d",
-            "shasum": ""
-        },
-        "require": {
-            "php": ">=7.0"
-        },
-        "time": "2020-08-05T12:50:30+00:00",
-        "type": "library",
-        "installation-source": "dist",
-        "autoload": {
-            "psr-4": {
-                "srag\\LibrariesNamespaceChanger\\": "src/"
-            }
-        },
-        "notification-url": "https://packagist.org/downloads/",
-        "license": [
-            "GPL-3.0-only"
-        ],
-        "authors": [
-            {
-                "name": "studer + raimann ag - Team Custom 1",
-                "email": "support-custom1@studer-raimann.ch",
-                "homepage": "https://studer-raimann.ch",
-                "role": "Developer"
-            }
-        ],
-        "description": "Change namespace of libraries to plugin namespace",
-        "homepage": "https://github.com/studer-raimann/LibrariesNamespaceChanger",
-        "keywords": [
-            "ILIAS",
-            "libraries"
-        ]
-    }
-]
+{
+    "packages": [
+        {
+            "name": "srag/librariesnamespacechanger",
+            "version": "0.16.1",
+            "version_normalized": "0.16.1.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/fluxapps/LibrariesNamespaceChanger.git",
+                "reference": "186c543c88544ecf3907767e1645d4faf37dede0"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/fluxapps/LibrariesNamespaceChanger/zipball/186c543c88544ecf3907767e1645d4faf37dede0",
+                "reference": "186c543c88544ecf3907767e1645d4faf37dede0",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=7.2"
+            },
+            "require-dev": {
+                "srag/generateplugininfoshelper": ">=0.1.0"
+            },
+            "time": "2021-07-20T08:31:26+00:00",
+            "type": "library",
+            "installation-source": "dist",
+            "autoload": {
+                "psr-4": {
+                    "srag\\LibrariesNamespaceChanger\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "GPL-3.0-only"
+            ],
+            "authors": [
+                {
+                    "name": "fluxlabs",
+                    "email": "support@fluxlabs.ch",
+                    "homepage": "https://fluxlabs.ch",
+                    "role": "Developer"
+                }
+            ],
+            "description": "Change namespace of libraries to plugin namespace",
+            "homepage": "https://github.com/fluxapps/LibrariesNamespaceChanger",
+            "keywords": [
+                "changer",
+                "libraries",
+                "namespace"
+            ],
+            "support": {
+                "source": "https://github.com/fluxapps/LibrariesNamespaceChanger/tree/v0.16.1"
+            },
+            "abandoned": "https://github.com/flux-caps/flux-namespace-changer",
+            "install-path": "../srag/librariesnamespacechanger"
+        }
+    ],
+    "dev": true,
+    "dev-package-names": []
+}
